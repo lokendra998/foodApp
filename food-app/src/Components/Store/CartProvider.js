@@ -13,25 +13,7 @@ const updatedtotalAmount = state.totalAmount +action.item.price * action.item.am
 
 const updatedItems = state.items.concat(action.item);
 
-// const existingCartItemIndex = state.items.findIndex(item => item.id===action.item.id);
 
-// const existingCartItem = state.item[existingCartItemIndex];
-// let updatedItems;
-
-// let updatedItem;
-
-// if(existingCartItem)
-// {
-//     updatedItem ={
-//         ...existingCartItem,
-//         amount:existingCartItem.amount + action.item.amount
-//     };
-//     updatedItems = [...state.items];
-//     updatedItems[existingCartItemIndex]= updatedItem;
-// }else{
-//     // updatedItem = {...action.item}
-    // updatedItems = state.items.concat(action.item)
-// }
 
 
 return {
